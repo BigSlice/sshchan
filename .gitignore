@@ -5,3 +5,5 @@ sshchan.conf
 boardlist
 .ssh/known_hosts
 postnums
+
+boards/*
