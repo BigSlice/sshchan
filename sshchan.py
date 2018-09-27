@@ -15,14 +15,14 @@ under GNU GPL v2, see LICENSE for details
 import logging
 import sys
 import os
-import urwid
+#import urwid
 import re
 # sshchan imports
 # import admin
 import config
 from boards import Board
 from chan_mark import Marker
-import display
+#import display
 from display_legacy import DisplayLegacy
 from dl_cmdline import DisplayLegacyCmdline
 

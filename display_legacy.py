@@ -33,9 +33,9 @@ class DisplayLegacy:
         self.userguide = helptexts.display_legacy_userguide
 
     def display_home(self):
-        self.laprint(self.c.RED + 'Welcome to ' + self.c.YELLOW + 'sshchan!\
+        self.laprint(self.c.RED + 'Welcome to ' + self.c.YELLOW + 'bunkerchan!\
             \n===========' + self.c.RED + '========' + self.c.BLACK)
-        self.laprint(self.c.GREEN + 'SERVER:\t' + self.c.BLACK + self.config.server_name)
+        self.laprint(self.c.GREEN + 'NAME:\t' + self.c.BLACK + self.config.server_name)
         self.laprint(self.c.GREEN + 'MOTD:' + self.c.BLACK)
         self.print_motd()
         # Listing boards

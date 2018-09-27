@@ -116,7 +116,6 @@ class DisplayLegacyCmdline:
                 self.dl.display_help(cmd=str(cmd_argv[1]))
             else:
                 self.dl.display_help()
-                print("\nType \'help user\' for a guide to sshchan.")
 
         elif cmd_argv[0] in ("b", "board", "cd"):
             if len(cmd_argv) > 1:

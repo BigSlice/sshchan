@@ -2,3 +2,6 @@ log
 __pycache__
 *.pyc
 sshchan.conf
+boardlist
+.ssh/known_hosts
+postnums

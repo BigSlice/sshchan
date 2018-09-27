@@ -17,7 +17,7 @@ under GNU GPL v2, see LICENSE for details
 
 import logging
 import time
-import urwid as ur
+#import urwid as ur
 
 
 logging.basicConfig(

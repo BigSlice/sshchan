@@ -68,7 +68,7 @@ class Config():
         self.version = self.get_cfg_opt("version", "0.0")
         self.motd = self.get_cfg_opt("motd_path", "/etc/motd")
         self.server_name = self.get_cfg_opt("name", "an sshchan server")
-        self.username = os.getenv("USERNAME", default="anonymous")
+        self.username = os.getenv("USERNAME", default="Nanashi")
         self.max_boards = 10  # How many boards can be displayed in top bar.
         self.display_legacy = self.get_cfg_opt("display_legacy", "False")
         self.prompt = self.get_cfg_opt("prompt", "sshchan")
